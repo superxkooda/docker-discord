@@ -9,4 +9,3 @@ sed -i 's/linux\/[0-9]*\.[0-9]*\.[0-9]*\/discord-[0-9]*\.[0-9]*\.[0-9]*/linux\/'
 git commit -am "Discord version $version" -S
 git tag -am "Discord version $version" $version
 git push --follow-tags
-i
